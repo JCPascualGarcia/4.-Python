@@ -1,0 +1,15 @@
+def es_par_o_impar(numero):
+    """
+    Verifica si un número es par o impar.
+    """
+    if numero % 2 == 0:
+        return "El número es par"
+    else:
+        return "El número es impar"
+
+# Solicitamos al usuario que introduzca un número
+
+numero_usuario = int(input("Introduce un número: "))
+    # Llamamos a la función con el número del usuario
+resultado = es_par_o_impar(numero_usuario)
+print(resultado)
